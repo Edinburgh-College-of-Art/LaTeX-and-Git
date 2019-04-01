@@ -109,43 +109,17 @@ Figures are always in the form:
 
 ## 5. [Equations](https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics)
 
-<table>
-<tbody><tr>
-<th>Function
-</th>
-<th>Description
-</th></tr>
-<tr>
-<td>`_{...}`
-</td>
-<td>Subscript
-</td></tr>
-<tr>
-<td>`^{...}`
-</td>
-<td>Superscript
-</td></tr>
-<tr>
-<td>`\[ ... \]`
-</td>
-<td>equation display
-</td></tr>
-<tr>
-<td>`/( ... /)`
-</td>
-<td>inline equation
-</td></tr>
-<tr>
-<td>`\frac{n}{d}`
-</td>
-<td>fraction with a numerator `n` and denominator `d`
-</td></tr>
-</tbody></table>
+Below is short cheat sheet for typing equations into LaTeX. If you need to use special characters at any point, it is easier to insert symbols inline using `\( \)`. Anything written beteen `\[ \]` or `\( \)` is typically referred to as *math mode*
 
-[A reasonably comprehensive list of symbols can be found in the wikibook](https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_mathematical_symbols)
+| Function      | Description |
+| ------------- |-------------|
+| `\[ ... \]` | equation display     |
+| `/( ... /)` | inline equation |
+| `^{...}` | Superscript      |
+| `_{...}`      | Subscript |
+| `\frac{n}{d}` | fraction with a numerator `n` and denominator `d` |
 
-
-Use LaTeXiT to style equations.
+[A reasonably comprehensive list of symbols can be found in the wikibook](https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_mathematical_symbols) Use LaTeXiT to style equations.
 
 ## 6. LaTeX and Git
 
