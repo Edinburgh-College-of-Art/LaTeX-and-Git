@@ -1,5 +1,6 @@
 # LaTeX Tutorial
 
+[The Wikibook for LaTeX is a fantastic resource](https://en.wikibooks.org/wiki/LaTeX). Here is some basic info to get you started.
 
 ## 1. Creating a project
 
@@ -28,19 +29,23 @@ For the proposal and final submission, you will be provided with a LaTeX templat
 
 ## 2. Building the file
 
+The compiler you use may have some effect on the final look of your file. `pdflatex` is the recommended compiler for your submission. You should build the file from time to time to make sure that there are no errors. Try not to ignore errors for too long as you will have to fix them at some point.
 
 ## 3. BiBTeX
 
-## Images
+Workflow
 
-Always in the form
+## 4. [Figures](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions)
 
+Figures are always in the form:
+
+```latex
 \begin{figure}[placement_specifier]   
-     \includegraphics[width=0.25\textwidth]{images/jacket.jpg}
+     \includegraphics[width=0.25\textwidth]{path/to/file}
    \caption{Caption Text}
 \end{figure}
-
-<table class="wikitable">
+```
+<table>
 <tbody><tr>
 <th>Specifier
 </th>
@@ -74,11 +79,11 @@ Always in the form
 <tr>
 <td><code>H</code>
 </td>
-<td>Places the float at precisely the location in the LaTeX code. Requires the <span style="font-family: monospace; color: #2020C0; font-weight: normal;">float</span> package,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup> i.e., <code class="mw-highlight" dir="ltr"><span class="k">\usepackage</span><span class="nb">{</span>float<span class="nb">}</span></code>.
+<td>Places the float at precisely the location in the LaTeX code. Requires the <span style="font-family: monospace; color: #2020C0; font-weight: normal;">float</span> package. i.e., <code class="mw-highlight" dir="ltr"><span class="k">\usepackage</span><span class="nb">{</span>float<span class="nb">}</span></code>.
 </td></tr></tbody></table>
 
 
-## Equastions
+## [Equations](https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics)
 
 ## 3. LaTeX and Git
 

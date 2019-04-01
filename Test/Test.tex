@@ -1,11 +1,28 @@
-\documentclass[11pt, oneside]{article} 
-%\usepackage{geometry}
-
-%\usepackage{graphicx}
-%\geometry{letterpaper}
+\documentclass[11pt, oneside]{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\geometry{letterpaper}
 \title{Brief Article}
 
 \begin{document}
 \maketitle
 
-\end{document}  
+Hey, I am writing an equation inline \(M = \begin{bmatrix}
+       \frac{5}{6} & \frac{1}{6} & 0           \\[0.3em]
+       \frac{5}{6} & 0           & \frac{1}{6} \\[0.3em]
+       0           & \frac{5}{6} & \frac{1}{6}
+     \end{bmatrix} \)
+
+rather than
+
+\[
+M = \begin{bmatrix}
+       \frac{5}{6} & \frac{1}{6} & 0           \\[0.3em]
+       \frac{5}{6} & 0           & \frac{1}{6} \\[0.3em]
+       0           & \frac{5}{6} & \frac{1}{6}
+     \end{bmatrix}
+\]
+\end{document}
