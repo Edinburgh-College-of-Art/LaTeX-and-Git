@@ -119,7 +119,7 @@ Below is short cheat sheet for typing equations into LaTeX. If you need to use s
 | `_{...}`      | Subscript |
 | `\frac{n}{d}` | fraction with a numerator `n` and denominator `d` |
 
-[A reasonably comprehensive list of symbols can be found in the wikibook](https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_mathematical_symbols) Use LaTeXiT to style equations.
+[A reasonably comprehensive list of symbols can be found in the wikibook](https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_mathematical_symbols). Use an app like LaTeXiT to style equations.
 
 ## 6. LaTeX and Git
 
