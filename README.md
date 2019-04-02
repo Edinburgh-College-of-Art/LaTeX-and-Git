@@ -7,25 +7,23 @@
 
 `.tex` files are essentially just text files. Just like this file `README.md`, which is a markdown file, `.tex` files are just text with TeX commands. It is recommended that you install a LaTeX distribution as suggested in [the setup page](https://edinburgh-college-of-art.github.io/2019-04-15-gitcarp/). TeX packages just ensure you have a tex compiler installed. You can edit your tech file in whichever plain text editor you are comfortable with. [You can even use LaTeX in atom](https://gist.github.com/Aerijo/5b9522530715e5be6e89fc012e9a72a8)
 
-- Download packages
+For LaTex in Atom, download these packages:
   - [Language-LaTeX](https://atom.io/packages/language-latex) by area
   - [Latex](https://atom.io/packages/latex) compile tool by thomasjo
   - [latex-autocomplete](https://atom.io/packages/latex-autocomplete) by evpok
+
+## 2. Building the file
 
 For a LaTeX file to build, all we need is:
 
 ```latex
 \documentclass[12pt]{article}
-\title{Title}
 \begin{document}
-\maketitle
+Some Text
 \end{document}
 ```
 
-For the proposal and final submission, you will be provided with a LaTeX template
-
-
-## 2. Building the file
+For the proposal and final submission, you will be provided with a LaTeX template. It is good to start with the basics in order to experiment. The `\documentclass[options]{type}` can take a number of options and the format of the document can be set to change the layout. [The options and types are documented in the LaTeX wikibook](https://en.wikibooks.org/wiki/LaTeX/Document_Structure#The_document_environment)
 
 The compiler you use may have some effect on the final look of your file. `pdflatex` is the recommended compiler for your submission. You should build the file from time to time to make sure that there are no errors. Try not to ignore errors for too long as you will have to fix them at some point.
 
