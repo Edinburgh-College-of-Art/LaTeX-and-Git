@@ -34,7 +34,7 @@ Like tex files, BiBTeX files are just text with a specific format. It is recomme
 You should be able to export Bibtex resources for journal articles that you are using. DiscoverEd has this functionality. Export to bibtex and use utf-8 encoding
 
 To use a bibliography file you need to place the following commands at the end of your LaTeX file (that is, after the content, but before `\end{document}`).
-```
+```latex
 \bibliographystyle{plain}
 \bibliography{path/to/bib/file}
 ```
@@ -146,3 +146,24 @@ For spell checking in LaTeX, [check here](https://en.wikibooks.org/wiki/LaTeX/Ti
 - `apt-get install ispell`
 - `apt-get install aspell`
 - `apt-get install hunspell`
+
+
+## Step-by-step
+
+- create repository
+- clone repository
+- Create a `.tex` file in local repository
+- type
+```latex
+\documentclass[12pt]{article}
+\begin{document}
+Some Text
+\end{document}
+```
+- compile
+- commit
+- push
+
+# Notes
+
+- use back ticks \`\` for quotations on the left hand side
