@@ -150,10 +150,10 @@ For spell checking in LaTeX, [check here](https://en.wikibooks.org/wiki/LaTeX/Ti
 
 ## Step-by-step
 
-- create repository
-- clone repository
-- Create a `.tex` file in local repository
-- type
+- create a repository
+- clone the repository
+- Create a `.tex` file in local repository directory
+- type in `.tex` file:
 ```latex
 \documentclass[12pt]{article}
 \begin{document}
@@ -167,3 +167,4 @@ Some Text
 # Notes
 
 - use back ticks \`\` for quotations on the left hand side
+- There are macros for compiling your bibliography to avoid having to manually compile 4 times.
