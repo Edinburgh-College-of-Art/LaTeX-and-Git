@@ -1,7 +1,20 @@
 % Typesetting Code in LaTeX
+% You will need to add the -shell-escape flag to engine
+%
+% TexShop: Perferences -> Engine -> pdfTex -> LaTeX: add -shell-escape
+%
+% https://stackoverflow.com/a/28586661
+%
+% Atom: Preferences -> Packages -> LaTeX -> "enable shell escape" checkbox
+%
+%
+% If you are running windows, then you would need to use Overleaf or follow this SO answer
+%
+% https://tex.stackexchange.com/a/108664
+
 \documentclass[12pt]{article}
 \usepackage{minted}
 \begin{document}
-Here is My Function
+Here is My Function:
 \inputminted[linenos]{matlab}{maxn.m}
 \end{document}
